@@ -43,13 +43,18 @@ h1 {
 #rating {
     background-image: url('rottenbackground.png');
     background-repeat: repeat-x;
-    padding: 10px;
-    text-align: center;
+    padding: 8px 5px;
+    text-align: left;
     color: white;
+    position: relative;
+    height: 65px;
+    display: flex;
+    align-items: center;
 }
 
 #rating img {
     vertical-align: middle;
+    margin-right: 8px;
 }
 
 #percentage {
@@ -57,13 +62,15 @@ h1 {
     font-weight: bold;
     color: red;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-right: 15px;
+    line-height: 1;
 }
 
 #review-count {
     font-size: 8pt;
     color: white;
-    margin-top: 5px;
+    align-self: flex-end;
+    margin-bottom: 8px;
 }
 
 #columns {
@@ -133,8 +140,9 @@ h1 {
 
 #overview img {
     display: block;
-    margin: 10px auto;
-    width: 200px;
+    margin: 0;
+    width: 250px;
+    height: auto;
 }
 
 #overview dl {
