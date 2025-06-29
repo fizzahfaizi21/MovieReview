@@ -67,7 +67,7 @@ h1 {
 
 #columns {
     overflow: hidden;
-    padding: 10px;
+    padding: 0 2%;
 }
 
 .column {
@@ -77,10 +77,6 @@ h1 {
 
 .column:first-child {
     margin-right: 2%;
-}
-
-.column:last-child {
-    margin-left: 2%;
 }
 
 .review {
@@ -100,8 +96,9 @@ h1 {
 .review .quote {
     font-weight: bold;
     font-size: 8pt;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     overflow: hidden;
+    line-height: 1.2;
 }
 
 .review .critic {
@@ -121,7 +118,6 @@ h1 {
     background-color: #A2B964;
     font-family: Arial, sans-serif;
     font-size: 8pt;
-    padding: 10px;
 }
 
 #overview-header {
@@ -129,16 +125,20 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-size: 12pt;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 5px 0;
+    background-color: black;
 }
 
 #overview img {
     display: block;
-    margin: 0 auto 10px auto;
+    margin: 10px auto;
+    width: 200px;
 }
 
 #overview dl {
     margin: 0;
+    padding: 10px;
 }
 
 #overview dt {
